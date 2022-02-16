@@ -1,0 +1,120 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;800&display=swap);
+html{
+    font-family : Arial, Helvetica, sans-serif;
+}
+p{
+    color: #707070;
+    width: 80%;
+}
+header{
+    height: 6rem;
+    text-align: center;
+    background-color: #C9EFFF;
+    padding: 2%;
+}
+.container{
+    margin: auto;
+}
+header a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    margin: 7%;
+    margin-top: 2rem;
+}
+header img{
+    height:4rem;
+}
+.corp{
+    width: 80%;
+    margin-left: 10%;
+}
+/*bandeau 2*/
+.bandeau2{
+    float: center;
+    margin: 5% 5% 10% 20%;
+}
+.bandeau2 img{
+    height: 16rem;
+    float: left;
+    margin-right:5%;
+}
+.bandeau2 h1{
+    margin-bottom: 3%;
+    font-weight: bold;
+    font: normal normal 900 60px/30px Arial;
+    color: #29ABE2;
+}
+/*bandeau 3 */ 
+.bandeau3{
+    width: 90%;
+    float: left;
+    margin-left: 20%;
+}
+.bandeau3 h2{
+    font-weight: bold;
+    font: normal normal 900 30px/15px Arial;
+    color: #29ABE2;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+#titre1{
+    width: 25%;
+    float: left;
+    margin: 0%;
+}
+/* pieds de page */
+footer{
+    width: 100%;
+    float: left;
+    margin-top: 1%;
+    padding: 2%;
+    text-align: center;
+    background-color: #C9EFFF;
+}
+footer a{
+    padding-top: 4%;
+    margin: 3%;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+/*div{
+    width: 30rem;
+    height: 10rem;
+    margin: 5rem;
+}
+.rouge{
+    background-color: red;
+}
+.bleu{
+    background-color:blue;
+
+}
+.jaune{
+    background-color:yellow;
+}
+.vert{
+    background-color:green;
+}
+.orange{
+    background-color:orange;
+}
+.violet{
+    background-color:purple;
+}
+div{
+    width: 40rem;
+    height: 10rem;
+    margin: 5rem;
+    float: left;
+}
+@media(max-width: 1600px){      
+    div{
+        width: 35rem;
+    }
+    .rouge{
+        background-color: pink;
+    }
+}*/
