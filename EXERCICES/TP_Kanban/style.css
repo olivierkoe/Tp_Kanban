@@ -1,0 +1,89 @@
+/* Page Html */
+
+.container{
+    background-color: rgb(76, 76, 227);
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+h1 , h2 {
+    color: white;
+}
+.h2fondBlanc{
+    color: black;
+}
+h3{
+    color: black;
+}
+
+/* Partie 1 La card  */
+.partieUne{
+    margin: auto;
+    width: 100%;
+}
+.fichePrincipal{
+    margin: auto;
+    background-color: white;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 300px;
+}
+
+.partieMain{
+    padding-left: 20px;
+    text-align: center;
+    width: 300px;
+    flex-direction: column;
+}
+
+.base{
+    background-color: yellow;
+    box-shadow: 1px 5px 1px lightgray;
+    padding-bottom: 10%;
+    padding-top: 1%;
+    text-align: center;
+}
+.ValidationNote{
+    margin-top: 5%;
+}
+
+.deletePart{
+    width: 300px;
+    text-align: center;
+}
+img{
+    width: 200px;
+}
+
+.dropBox{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 3px solid lightgray;
+    border-radius: 10px;
+    padding: 0% 5% 5% 0%;
+    width: 500px;
+    height: 400px;
+    margin-bottom: 5%;
+}
+
+/* Les Post-its */
+
+article{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    background-color: yellow;
+    color: black;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: 1px 5px 1px lightgray;
+    padding-bottom: 1%;
+    text-align: center;
+}

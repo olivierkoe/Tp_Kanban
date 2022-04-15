@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projet Post-It</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="partieUne">
+            <h1>Kanban</h1>
+            <div class="fichePrincipal">
+                <div class="partieMain">
+                    <h2 class="h2fondBlanc">Add notes</h2>
+                    <form class="case">
+                        <div class="base" id="postit">
+                            <h3>objet</h3>
+                            <input type="text" id="titrePostit">
+                            <h3>Description</h3>
+                            <input type="text" id="contentPostit"> <br>
+                        </div>
+                        <input type="button" value="Validation" class="ValidationNote" />
+                    </form>
+                </div>
+                <div class="deletePart">
+                    <h3>Delete notes</h3>
+                    <img src="./img/dustbin_120823.png" alt="image corbeille" class="trash">
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2>TO DO</h2>
+            <div class="dropBox" id="todoBox">
+            </div>
+        </div>
+        <div>
+            <h2>DONE</h2>
+            <div class="dropBox" id="doneBox">
+            </div>
+        </div>
+        <div>
+            <h2>VERIFIED</h2>
+            <div class="dropBox" id="verifiedBox">
+            </div>
+        </div>
+    </div>
+    <section></section>
+    <script src="script.js"></script>
+</body>
+
+</html>
